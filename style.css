@@ -1,0 +1,35 @@
+#logo{
+    width: 400px; /* width of container */
+    height: 175px; /* height of container */
+    object-fit: cover;
+}
+input[type="number"] {
+    width:200px;
+    height: 30px;
+    margin-top: 10px;
+ }
+header{
+    background: red;
+    display: flex;
+}
+#title{
+    margin-top: 20px;
+}
+#pokeinfo{
+    display: inline;
+    
+}
+#pokepic{
+    float: right;
+    height: 300px;
+    width: auto;
+    background-color:gray;
+    border-radius: 50%;
+}
+#map {
+    height:500px;
+    width:500px;
+}
+#pokemon, #desc{
+    font-size: 25px;
+}

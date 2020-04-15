@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Pokemon Location Finder</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="sprites/logo.png" alt="pokemon logo">
+            <section id="title">
+                <h1>Location Finder</h1>
+                <h2>Enter a Pokemon # and find out who they are and where they come from (1 - 807)</h2>
+            </section>
+        </header>
+        <section id="pokeinfo">
+            <form action="">
+                <input type="number">
+            </form>
+            <span id="pokemon"></span><span id="desc"></span>
+            <img id="pokepic" src="sprites/0.png" alt="pokemon picture">
+
+        </section>
+
+        <section id="mapcontainer">
+            <h2>Pokemons Location</h2>
+            <div id="map"></div>
+        </section>
+
+        <!-- load the Google Maps API-->
+       <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArUf-dV-Xd1PfhVR-I955VHrdtxiVmfXM&callback=initializeMap">
+       </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript" src="PokemonAPI.js"></script>
+        <footer>
+            <p>Pokemon is a TM from Nintendo. For educational purpose only.</p>
+        </footer>
+
+    </body>
+</html> 
